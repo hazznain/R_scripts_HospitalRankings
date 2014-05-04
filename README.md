@@ -14,7 +14,7 @@ R scripts for ranking hospitals and extracting rank information on basis of one 
 
 	https://d396qusza40orc.cloudfront.net/rprog%2Fdata%2FProgAssignment3-data.zip     
 	the zip file contains three files   
-	* outcome-of-care-measures.csv: Contains information about 30-day mortality and readmission rates 	for heart attacks, heart failure, and pneumonia for over 4,000 hospitals.
+	* outcome-of-care-measures.csv: Contains information about 30-day mortality and readmission rates 	for heart attacks, heart failure, and pneumonia for over 4,000 hospitals in all the states in USA.
 	* hospital-data.csv: Contains information about each hospital.
 	* Hospital_Revised_Flatfiles.pdf: Descriptions of the variables in each file (i.e the code book).    
 	A description of the variables in each of the files is in the included PDF file named Hospital_Revised_Flatfiles.pdf.     
