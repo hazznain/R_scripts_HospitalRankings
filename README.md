@@ -34,6 +34,6 @@ R scripts for ranking hospitals and extracting rank information on basis of one 
 	
 5.	Run the script using following command in R / R studio. n case of successful run script prompts the location of generated 2 x result files i.e Tidy data for Task1:4 and averages data for Task5.   , , 
 
-	`source("<best.R>")`      
-	`source("<rankhospital.R>")`    
-	`source("<rankall.R>")`     
+	`source("best.R")`      
+	`source("rankhospital.R")`    
+	`source("rankall.R")`     
