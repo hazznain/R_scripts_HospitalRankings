@@ -38,46 +38,46 @@ R scripts for ranking hospitals and extracting rank information on basis of one 
 	`source("rankhospital.R")`    
 	`source("rankall.R")`  
 
-###Test Inputs "best.R"
-``
-> source("best.R")  
-> best("TX", "heart attack")  
+###Test Cases for "best.R"
+
+> `source("best.R")`  
+> `best("TX", "heart attack")`     
 	[1] "CYPRESS FAIRBANKS MEDICAL CENTER"  
 	
-> best("TX", "heart failure")   
+>`best("TX", "heart failure")`   
 	[1] "FORT DUNCAN MEDICAL CENTER" 
    
-> best("MD", "heart attack")    
+> `best("MD", "heart attack")`    
 	[1] "JOHNS HOPKINS HOSPITAL, THE" 
 	
-> best("MD", "pneumonia")   
+> `best("MD", "pneumonia")`   
 	[1] "GREATER BALTIMORE MEDICAL CENTER" 
   
-> best("BB", "heart attack")   
+> `best("BB", "heart attack")`   
 	Error in best("BB", "heart attack") : invalid state   
  
-> best("NY", "hert attack")   
+> `best("NY", "hert attack")`   
 	Error in best("NY", "hert attack") : invalid outcome    
-``
 
-###Test Inputs "rankhospital.R"
-``
-> source("rankhospital.R")  
 
-> rankhospital("TX", "heart failure", 4)  
+###Test Cases for "rankhospital.R"
+
+> `source("rankhospital.R")`  
+
+> `rankhospital("TX", "heart failure", 4)`  
 	[1] "DETAR HOSPITAL NAVARRO"  
 
-> rankhospital("MD", "heart attack", "worst")  
+> `rankhospital("MD", "heart attack", "worst")`  
 	[1] "HARFORD MEMORIAL HOSPITAL"   
 
-> rankhospital("MN", "heart attack", 5000)  
+> `rankhospital("MN", "heart attack", 5000)`  
 	[1] NA  
-``
-###Test Inputs "rankhospital.R"
-``
-> source("rankall.R")  
 
-> head(rankall("heart attack", 20), 10)  
+###Test Cases for "rankhospital.R"
+
+> `source("rankall.R")`  
+
+> `head(rankall("heart attack", 20), 10)`  
 	hospital state  
 	AK <NA> AK  
 	AL D W MCMILLAN MEMORIAL HOSPITAL AL   
@@ -95,11 +95,11 @@ R scripts for ranking hospitals and extracting rank information on basis of one 
 	WV PLATEAU MEDICAL CENTER WV    
 	WY NORTH BIG HORN HOSPITAL DISTRICT WY   
 
-> tail(rankall("heart failure"), 10)   
+> `tail(rankall("heart failure"), 10)`   
 	hospital state    
 	TN WELLMONT HAWKINS COUNTY MEMORIAL HOSPITAL TN    
 	TX FORT DUNCAN MEDICAL CENTER TX     
 	UT VA SALT LAKE CITY HEALTHCARE - GEORGE E. WAHLEN VA MEDICAL CENTER UT    
-	``  
+	  
 
 
