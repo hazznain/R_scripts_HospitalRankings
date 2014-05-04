@@ -9,8 +9,7 @@ R scripts for ranking hospitals and extracting rank information on basis of one 
 
 	`git clone https://github.com/hazznain/R_scripts_HospitalRankings.git`
 	
-	the .pdf file in the downloaded package have the details of the data.
-	
+		
 2.	Download the data using following link into cloned repo directory and uncompress so that the extracted .csv files are in same directory as the script files (cloned directory)   
 
 	https://d396qusza40orc.cloudfront.net/rprog%2Fdata%2FProgAssignment3-data.zip     
